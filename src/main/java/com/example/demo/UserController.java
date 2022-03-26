@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class UserController {
 
-    @RequestMapping("/users")
-    @ResponseBody
+    @RequestMapping("/example")
+
     public String users() {
-        return " World Hello!";
+        return "example";
     }
 
 }
